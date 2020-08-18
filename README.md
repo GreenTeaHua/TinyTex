@@ -26,4 +26,5 @@ abcdefg, 就这。
 
 --------------------------
 
-6. ISO for install, https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/
+6. ISO for install, https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/  
+7. green texlive2019(zip=913M,ISO,=2.5G), 链接: https://pan.baidu.com/s/11pzyB1yzUDdOr6sb-UVEqw 提取码: cncq
