@@ -17,8 +17,8 @@ Some changes,
 --------------------------------------
 % 中文demo，使用 pdflatex, xelatex 都可编译
 
-\documentclass[12pt, a4paper]{article}
-\usepackage[UTF8]{ctex}
+\documentclass[12pt, a4paper]{article}  
+\usepackage[UTF8]{ctex}  
 
 abcdefg, 就这。
 
