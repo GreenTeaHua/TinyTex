@@ -1,0 +1,36 @@
+% Compile with xelatex or pdflatex, XeLaTeX is recommended for Chinese
+% texlive 中文 第一个 demo,以前是ctex。
+% 20190918 by hua
+\documentclass[UTF8]{article}%
+\usepackage{ctex,color,graphicx} %中文 ,彩色字体,图
+
+\title{5 mins for latex }
+\begin{document}%-开始-----上面的定义和设置，请尽量不要动------------------------
+\maketitle          %添加这一句才能够显示标题等信息
+注.\textcolor{red}{注意：}\verb|\begin{document}|前面的是设置，尽量不修改。
+\verb|\\|=换行。\\
+设置步骤：参考，https://blog.csdn.net/wr339988/article/details/66634637,\\
+0) texlive2019/TinyTex: 移动硬盘 ，或清华源下载.\textcolor{red}{iso不要解压}.\\
+1) WinEdt: 会自动检测latex编译工具链。绿色版TinyTex需手动配置：
+Options $\rightarrow$ Execution Modes$\rightarrow$Tex System，
+把TeX Root：TeX Live 安装路径，
+把TeX Bin：TeX Live的”/bin/win32”，后面的两个选择Auto-detect，
+点击应用会自动刷新编译器。熟悉后可配置VSC等更现代化的代码编辑器.\\
+2) pdf: 菜单栏：Options$\rightarrow$Execution Modes$\rightarrow$PDF Viewer，
+点“Browse”按钮，选择如 "xx\verb|\|SumatraPDF.exe"，xx是你机器上的路径。
+PDF Viewer窗口下方的“Use--synctex ……”前的选项一定要打勾。每次修改后，按Ctrl+S。\\
+
+公式： $a^2+b^2=c^2$, 及带编号公式：
+\begin{equation}
+\cos(2 \theta) = \cos ^ 2 \theta - \sin ^ 2 \theta
+\end{equation}
+
+注：IEEE，爱思唯尔等都有 latex模板，插图，公式，表格都有模板，复制了修改就ok。或
+公式在线转：https://www.latexlive.com/,或bing mathtype转latex.
+表格在线转：https://tableconvert.com/ \\
+
+结束，一般期刊投稿都有word模板都，包含CVPR。但是有的定稿要求latex，对同学要求会用就ok。
+遇到什么不会的就 bing一下。全部tex代码如下图所示实例：\\
+\includegraphics[width=6.5in]{5min4latex-demo}%eps or pdf,1 in = 2.54cm.
+
+\end{document} % -结束---------------------------------------------------
