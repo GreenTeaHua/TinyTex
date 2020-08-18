@@ -10,7 +10,8 @@ More indormation can be get https://github.com/yihui/tinytex/.
 
 4. the totle zip can get in the baudu [], with [].
 --------------------------------------
-% 使用 pdflatex, xelatex 都可以编译通过
+% 中文demo，使用 pdflatex, xelatex 都可编译
+
 \documentclass[12pt, a4paper]{article}
 \usepackage[UTF8]{ctex}
 
